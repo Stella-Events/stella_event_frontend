@@ -5,7 +5,7 @@ import React from 'react'
 const EventsTile = ({ card, name, ticket, time, location }) => {
     return (
         <div className="h-80 w-2/5 bg-black place-content-center 
-                        px-10 py-10 border border-[#c57816] hover:border-4 shadow-2xl">
+                        px-5 py-5 border border-[#c57816] hover:border-4 shadow-xl rounded-xl">
 
             <div className="flex flex-row justify-center relative gap-10">
                 <div>

@@ -1,4 +1,5 @@
 import Banner from "./banner"
+import FormEvent from "./formEvent"
 import Vents from "./vents"
 
 const Landing = () => {
@@ -7,6 +8,7 @@ const Landing = () => {
       <div>
         <Banner />
         <Vents />
+        <FormEvent/>
       </div>
 
     </div>
