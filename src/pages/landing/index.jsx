@@ -1,3 +1,4 @@
+import Hero from "./components/hero"
 import Banner from "./banner"
 import FormEvent from "./formEvent"
 import Vents from "./vents"
@@ -5,11 +6,11 @@ import Vents from "./vents"
 const Landing = () => {
   return (
     <div>
-      <div>
+   <Hero/>
         <Banner />
         <Vents />
         <FormEvent/>
-      </div>
+   
 
     </div>
   )
