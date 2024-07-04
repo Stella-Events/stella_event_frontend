@@ -10,8 +10,6 @@ const Landing = () => {
       <Banner />
       <Vents />
       <FormEvent />
-
-
     </div>
   )
 }
