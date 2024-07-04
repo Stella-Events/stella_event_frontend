@@ -1,6 +1,10 @@
+import GalleryHero from "./components/galleryHero"
+
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+      <GalleryHero/>
+    </div>
   )
 }
 
