@@ -20,22 +20,6 @@ const NavBar = () => {
 
           }
         </div>
-        {/* <div className="mb-8">
-            <label
-              htmlFor="name"
-              className="block text-gray-500 font-bold mb-1 ml-4"
-            >
-              Search
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              //   value={formData.name}
-              //   onChange={handleChange}
-              className="h-14 bg-[#f1f1f1] w-full px-3 py-2 border-[#00B4BF] border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-600"
-            />
-          </div> */}
       </div>
     </div>
 
