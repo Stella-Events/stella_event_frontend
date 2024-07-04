@@ -6,11 +6,11 @@ import Vents from "./vents"
 const Landing = () => {
   return (
     <div>
-   <Hero/>
-        <Banner />
-        <Vents />
-        <FormEvent/>
-   
+      <Hero />
+      <Banner />
+      <Vents />
+      <FormEvent />
+
 
     </div>
   )
