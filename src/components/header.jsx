@@ -2,7 +2,7 @@ import { Lock, Mail, MailIcon, Phone, UserRound } from "lucide-react"
 
 const Header = () => {
     return (
-        <div className="bg-[#4169E1] flex justify-between py-3 px-[100px]  text-white">
+        <div className="bg-[#333333] flex justify-between py-3 px-[100px]  text-[#FFD700]">
             <div className="flex flex-row gap ">
                 <a href="email">
                 <span className="flex flex-row justify-between gap-x-2">
