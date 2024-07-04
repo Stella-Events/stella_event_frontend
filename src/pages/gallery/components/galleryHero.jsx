@@ -1,3 +1,4 @@
+import { Play, Star } from "lucide-react"
 import { GalleryBg } from "../../../assets"
 
 const GalleryHero = () => {
@@ -10,9 +11,9 @@ const GalleryHero = () => {
         </div>
         <div className="flex flex-row justify-center gap-16 py-10 ">
          <a href=""> <span>
-            All Gallery
+            <Star className=""/> All Gallery
             </span></a>
-          <a href=""><span>Video Gallery</span> </a>
+          <a href=""> <Play/> <span>Video Gallery</span> </a>
           <a href=""><span>Photo Gallery</span></a>
         </div>
     </div>
