@@ -1,6 +1,11 @@
+import ProEvents from "./proEvents"
+
+
 const Events = () => {
   return (
-    <div>Events</div>
+    
+     <ProEvents />
+    
   )
 }
 
