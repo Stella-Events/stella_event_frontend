@@ -3,6 +3,7 @@ import Banner from "./banner"
 import FormEvent from "./formEvent"
 import Vents from "./vents"
 
+
 const Landing = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const Landing = () => {
       <Banner />
       <Vents />
       <FormEvent />
+
     </div>
   )
 }
