@@ -1,4 +1,5 @@
 import { Lock, Mail, MailIcon, Phone, UserRound } from "lucide-react"
+import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
@@ -24,9 +25,9 @@ const Header = () => {
                 </a>
                 <h1 className="px-[20px]">|</h1>
                 <a href="logIn">
-                <span className="flex flex-row justify-between gap-x-2">
+                <Link to="/login" className="flex flex-row justify-between gap-x-2">
                     <Lock/> Login
-                </span>
+                </Link>
                 </a>
             </div>
         </div>

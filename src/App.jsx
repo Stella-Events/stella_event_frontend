@@ -5,6 +5,7 @@ import Events from "./pages/eventss"
 import Gallery from "./pages/gallery"
 import Contact from "./pages/contact"
 import RootLayout from "./layout/rootLayout"
+import LoginPage from "./pages/routingPages/loginPage"
 
 
 function App() {
@@ -37,11 +38,11 @@ function App() {
           element: <Contact />
         }
       ]
-    }
+    },
 
   ])
   return <RouterProvider router={router} />
 }
-
+<Route path="/login" element={LoginPage} />
 
 export default App
