@@ -16,18 +16,18 @@ const GalleryHero = () => {
         <a href="" className="flex flex-row gap-2"> <Images className="stroke-amber-500" /> <span className="text-[#878787] font-bold text-[18px]">Photo Gallery</span></a>
       </div>
       <div className="grid grid-cols-3 gap-4 p-4">
-      <img src={Gg1} alt="Gallery Image 1" className="w-full h-full object-cover" />
-      <video src={Gv1} className="w-full h-full object-cover" autoPlay muted loop></video>
-      <img src={Gg2} alt="Gallery Image 2" className="w-full h-full object-cover" />
-      <img src={Gg3} alt="Gallery Image 3" className="w-full h-full object-cover" />
+      <img src={Gg1} alt="Gallery Image 1" className="w-full h-full object-cover rounded-lg" />
+      <video src={Gv1} className="w-full h-full object-cover rounded-lg" autoPlay muted loop></video>
+      <img src={Gg2} alt="Gallery Image 2" className="w-full h-full object-cover rounded-lg" />
+      <img src={Gg3} alt="Gallery Image 3" className="w-full h-full object-cover rounded-lg" />
       <video src={Gv2} className="w-full h-full object-cover" autoPlay muted loop></video>
-      <img src={Gg4} alt="Gallery Image 4" className="w-full h-full object-cover" />
-      <img src={Gg5} alt="Gallery Image 5" className="w-full h-full object-cover" />
+      <img src={Gg4} alt="Gallery Image 4" className="w-full h-full object-cover rounded-lg" />
+      <img src={Gg5} alt="Gallery Image 5" className="w-full h-full object-cover rounded-lg" />
       <video src={Gv3} className="w-full h-full object-cover" autoPlay muted loop></video>
-      <img src={Gg6} alt="Gallery Image 6" className="w-full h-full object-cover" />
+      <img src={Gg6} alt="Gallery Image 6" className="w-full h-full object-cover rounded-lg" />
     </div>
-    <div className="bg-amber-500 p-16">
-      <span className="text-6xl">30%</span>
+    <div className="bg-gradient-to-r from-[#FFB62D] to-amber-500 p-16">
+      <span className="text-6xl text-white">30%</span>
       <span className="text-3xl">Off In June~July For</span>
       <span className="text-4xl"> Wedding Events</span>
     </div>
