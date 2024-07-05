@@ -6,6 +6,7 @@ import Gallery from "./pages/gallery"
 import Contact from "./pages/contact"
 import RootLayout from "./layout/rootLayout"
 
+
 function App() {
 
   const router = createBrowserRouter([
